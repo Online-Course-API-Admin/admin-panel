@@ -141,6 +141,7 @@
                                 <a href="{{ url('lesson/create') }}" class="btn btn-primary">New <i class="material-icons">add</i></a>
                             </div>
                             </div>
+                            <a href="{{ url('quiz/create') }}" class="btn btn-info mx-4">Final Quiz</a>
 
                             <ul class="list-group list-group-fit">
                             <li class="list-group-item">

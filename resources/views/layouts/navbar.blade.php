@@ -63,7 +63,7 @@
                     >
                         <img src="{{asset('assets')}}/images/avatar/demi.png" class="rounded-circle" width="32" alt="Frontted" />
                         <span class="ml-1 d-flex-inline">
-                        <span class="text-light">Ryan</span>
+                        <span class="text-light">Admin Ryan</span>
                         </span>
                     </a>
                     <div id="company_menu" class="dropdown-menu dropdown-menu-right navbar-company-menu">
@@ -72,18 +72,15 @@
                             <img src="{{asset('assets')}}/images/frontted-logo-blue.svg" width="43" height="43" alt="avatar" />
                         </span>
                         <span class="flex d-flex flex-column">
-                            <strong class="h5 m-0">Ryan</strong>
-                            <small class="text-muted text-uppercase">Admin</small>
+                            <strong class="h5 m-0 text-uppercase">Ryan</strong>
+                            <small class="text-muted">Administrator</small>
                         </span>
                         </div>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item d-flex align-items-center py-2" href="student-edit-account.html">
+                        <a class="dropdown-item d-flex align-items-center py-2" href="{{ url('profile/edit') }}">
                         <span class="material-icons mr-2">account_circle</span> Edit Account
                         </a>
-                        <a class="dropdown-item d-flex align-items-center py-2" href="#">
-                        <span class="material-icons mr-2">settings</span> Settings
-                        </a>
-                        <a class="dropdown-item d-flex align-items-center py-2" href="login.html">
+                        <a class="dropdown-item d-flex align-items-center py-2" href="{{ url('login') }}">
                         <span class="material-icons mr-2">exit_to_app</span> Logout
                         </a>
                     </div>

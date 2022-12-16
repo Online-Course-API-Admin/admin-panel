@@ -16,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.dashboard');
 });
+Route::get('/login', function () {
+    return view('pages.login');
+});
+Route::get('/profile/edit', function () {
+    return view('pages.profile-edit');
+});
 
 Route::get('/courses', function () {
     return view('pages.courses');
@@ -31,4 +37,13 @@ Route::get('/lesson/create', function () {
 });
 Route::get('/lesson/edit', function () {
     return view('pages.lesson-edit');
+});
+Route::get('/quiz/create', function () {
+    return view('pages.quiz-create');
+});
+Route::get('/quiz/edit', function () {
+    return view('pages.quiz-edit');
+});
+Route::get('/earnings', function () {
+    return view('pages.earning');
 });

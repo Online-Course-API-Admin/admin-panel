@@ -124,7 +124,7 @@
                                 </div>
                                 <label for="subscribe2" class="mb-0">Yes</label>
                             </div>
-                            <a href="{{ url('courses') }}"><button type="submit" class="btn btn-success">Save Changes</button></a>
+                            <a href="{{ url('courses') }}"><button type="submit" class="btn btn-success">Save</button></a>
 
                             </div>
                             
