@@ -121,10 +121,16 @@
                                         </td>
 
                                         <td>
-                                            <div class="media align-items-center">
-                                            <img src="{{asset('assets')}}/images/avatar/green.svg" class="mr-2" alt="avatar" />
+                                        <div class="media align-items-center">
+                                            <div class="avatar avatar-xs mr-2">
+                                                <img
+                                                src="{{asset('assets')}}/images/girl.jpg"
+                                                alt="Avatar"
+                                                class="avatar-img rounded-circle"
+                                                />
+                                            </div>
                                             <div class="media-body">
-                                                <span class="js-lists-values-employee-name">Connie Smith</span>
+                                                <span class="js-lists-values-employee-name">Karin Angleia</span>
                                             </div>
                                             </div>
                                         </td>
@@ -204,10 +210,16 @@
 
                                         <td>
                                             <div class="media align-items-center">
-                                            <img src="{{asset('assets')}}/images/avatar/green.svg" class="mr-2" alt="avatar" />
-                                            <div class="media-body">
-                                                <span class="js-lists-values-employee-name">Connie Smith</span>
-                                            </div>
+                                                <div class="avatar avatar-xs mr-2">
+                                                    <img
+                                                    src="{{asset('assets')}}/images/girl2.jpg"
+                                                    alt="Avatar"
+                                                    class="avatar-img rounded-circle"
+                                                    />
+                                                </div>
+                                                <div class="media-body">
+                                                    <span class="js-lists-values-employee-name">Miya</span>
+                                                </div>
                                             </div>
                                         </td>
 

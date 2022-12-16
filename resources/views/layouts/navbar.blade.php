@@ -61,7 +61,7 @@
                         class="dropdown-toggle navbar-toggler navbar-toggler-dashboard border-left d-flex align-items-center ml-navbar"
                         data-toggle="dropdown"
                     >
-                        <img src="{{asset('assets')}}/images/avatar/demi.png" class="rounded-circle" width="32" alt="Frontted" />
+                        <img src="{{asset('assets')}}/images/avatar/boy.jpg" class="rounded-circle" width="32" alt="Frontted" />
                         <span class="ml-1 d-flex-inline">
                         <span class="text-light">Admin Ryan</span>
                         </span>
@@ -69,7 +69,7 @@
                     <div id="company_menu" class="dropdown-menu dropdown-menu-right navbar-company-menu">
                         <div class="dropdown-item d-flex align-items-center py-2 navbar-company-info py-3">
                         <span class="mr-3">
-                            <img src="{{asset('assets')}}/images/frontted-logo-blue.svg" width="43" height="43" alt="avatar" />
+                            <img src="{{asset('assets')}}/images/avatar/boy.jpg" width="43" height="43" alt="avatar" />
                         </span>
                         <span class="flex d-flex flex-column">
                             <strong class="h5 m-0 text-uppercase">Ryan</strong>
